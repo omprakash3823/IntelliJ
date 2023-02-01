@@ -1,8 +1,5 @@
 // Print all prime numbers in a given range. Range will be taken from user as input
-
-import java.util.ArrayList;
 import java.util.Scanner;
-
 public class prime_number {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,9 +12,9 @@ public class prime_number {
             if (i == 0 || i == 1) {
                 continue;
             }
-            for (int j = 1; j <= (i/2); j++) {
+            for (int j = 1; j <= (i / 2); j++) {
                 if (i % j == 0) {
-                    if(count<=2) {
+                    if (count <= 2) {
                         count = count + 1;
                     }
                 }
@@ -26,6 +23,5 @@ public class prime_number {
                 System.out.println(i);
             }
         }
-
     }
 }
