@@ -24,7 +24,7 @@ public class lcm {
                     gcd=i;
                 }
             }
-            System.out.println(gcd);
+
         }
         int lcm=(c*d)/gcd;
         System.out.println(lcm);
